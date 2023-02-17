@@ -2,3 +2,4 @@ resources
 
 "Python Firebase SDK Integration With Real Time Database" by Parwiz Forogh
 - using firebase_admin library
+- database url, sdk json file
