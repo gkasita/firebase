@@ -5,6 +5,7 @@ from firebase_admin import db
 cred = credentials.Certificate('sdk.json')
 default_app = firebase_admin.initialize_app(cred, {'databaseURL': "https://connectingfirebasedbtopy-b04c9-default-rtdb.firebaseio.com"})
 
+'''
 ref = db.reference('/')
 ref.set({
     'Employee':
@@ -21,4 +22,13 @@ ref.set({
             'age': 25
         }
     }
+})
+'''
+
+#updating the data
+
+ref = db.reference('Employee')
+ref.update({
+    'emp1/lname': 'updated lname3',
+    'emp2/lname': 'updated lname2'
 })

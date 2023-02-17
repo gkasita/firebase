@@ -1,14 +1,4 @@
-"connecting firebase realtime database to python: creating, reading, updating, and deleting data" by Rishab Teches Tech
+resources
 
-Firebase Realtime DB
-- Nosql database
-- stores and syncs data
-- realtime delivery
-- json trees
-- offline use
-
-Connect to Firebase
-- create
-- read
-- update
-- delete
+"Python Firebase SDK Integration With Real Time Database" by Parwiz Forogh
+- using firebase_admin library
